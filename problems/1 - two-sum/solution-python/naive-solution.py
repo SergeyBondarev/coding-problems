@@ -2,8 +2,8 @@ inp = [int(i) for i in input().split()]
 k = int(input())
 
 def two_sum(arr, k):
-	for i in inp:
-		for j in inp:
+	for i in arr:
+		for j in arr:
 			if i + j == k:
 				return True
 
