@@ -6,10 +6,10 @@ Given this implementation of cons:
 
 ```python
 def cons(a, b):
-	def pair(f):
-    	return f(a, b)
-	return pair
+    def pair(f):
+        return f(a, b)
+    return pair
 ```
 
 
-Implement `car` and `cdr`.
+Implement `car` and `cdr` functions.
